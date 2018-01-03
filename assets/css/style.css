@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 /*****************************************************
 *                   General styles
 *****************************************************/
 a {
     color:white;
+}
+
+.navbar-brand a {
+    font-family: 'Press Start 2P', cursive!important;
 }
 
 a:hover
@@ -39,11 +44,16 @@ a:hover
     height: 150px;
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Press Start 2P', cursive!important;
+    color:white;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive!important;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 li {
     display: block;
@@ -55,21 +65,24 @@ li {
 /* Navbar */
 .navbar {
     background: none !important;
+
 }
 .navbar * {
+    font-family: 'Press Start 2P', cursive!important;
+    font-size: 0.9em;
     color:white!important;
 }
 
-/*
+
 .header-section {
-    background: url('../../assets/img/header_image.jpg') no-repeat top;
+    background: url('../../assets/img/background2.jpg') no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 500px;
+    
+}
 
-*/
 
 body, html {
     height: 100%;
@@ -79,28 +92,9 @@ body, html {
     text-align: center!important;
 }
 
-.header-section {
-    /* The image used */
-    /*background-image: url('../../assets/img/header_image1.jpg');
-    */
-
-  background: #1fa2ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-    /* Full height */
-    /*height: 100vh;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.header-section img{
-     filter: blur(2px);
-}
 
 .background-video {
     position: fixed;
@@ -146,10 +140,10 @@ body, html {
 *                   How it works section
 *****************************************************/
 .hiw-section{
-    background-color: #00b3ee;
+    background-color:rgb(39,40,34);
     padding: 0!important;
 }
-.hiw-section h1{
+.hiw-section h2{
     color:white;
 }
 
@@ -420,10 +414,34 @@ Social icons
 /*****************************************************
 *                   Footer
 *****************************************************/
-footer *{
-    color:white
 
+footer p, a{
+    color:white;
+    font-family: 'Press Start 2P', cursive!important;
+    font-size: 0.9em;
 }
+
 footer{
     background-color:rgb(39,40,34);
 }
+
+
+
+
+
+a.btn.btn-success, button.btn.btn-success, input.btn.btn-success {
+    background-color: #00ff00;
+    border-color: #00ff00;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive!important;
+}
+
+a.btn.btn-info, button.btn.btn-info, input.btn.btn-info {
+
+    background-color: #00ffff;
+    border-color: #00ffff;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive!important;
+
+}
+
